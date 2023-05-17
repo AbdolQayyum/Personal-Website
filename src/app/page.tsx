@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import AboutMe from "./components/about-me";
-import { aboutMe } from './components/data/page-data';
+import { aboutMe , skills, projectsdetail} from './components/data/page-data';
+import Projectdata from './components/Projects';
 
 export const metadata = {
 
-  title : 'My portfolio'
+  title : 'Qayyum-Portfolio'
 }
 
 export default function Home() {
@@ -12,9 +13,8 @@ export default function Home() {
 
     <div>
 
-      <AboutMe data = {aboutMe}/>
-
-
+      <AboutMe data={aboutMe} skills={skills} />
+			<Projectdata data={projectsdetail} />
 
     </div>
 

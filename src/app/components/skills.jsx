@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { skills } from "./data/page-data";
 
-const Skills = ({ data }) => {
+const Skills = (data) => {
 	const [activeTab, setActiveTab] = useState("SOFT");
     
 
@@ -25,15 +26,25 @@ const Skills = ({ data }) => {
 	);
 	const content = (
 		<ul
-			className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${
+			className={`flex flex-row flex-wrap content-start list-none py-3 gap-2 text-lg ml-auto ${
 				activeTab === "SOFT" ? "justify-start" : "justify-end"
 			}`}
 		>
-			{data?.map(({ icon, text }) => (
+			{activeTab === 'SOFT'?skills.SOFT.map(({ icon, text }) => (
 				<li key={text} className='skill'>
-					<span> {icon}</span> {text}
+					<span> {icon}</span>
+					<label for="file">{text}</label>
+					<progress id="file" value="70" max="100"></progress>
 				</li>
-			))}
+			)):
+			skills.HARD.map(({ icon, text }) => (
+				<li key={text} className='skill'>
+<span> {icon}</span>
+					<label for="file">{text}</label>
+					<progress id="file" value="75" max="100">  </progress>				</li>
+			))
+		
+		}
 		</ul>
 	);
 	return (

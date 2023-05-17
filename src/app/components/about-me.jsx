@@ -2,6 +2,7 @@ import React,{useId} from 'react'
 import Skills from './skills'
 
 
+
 const AboutMe = ({data, skills}) => {
 
     const {title,body} = data;
@@ -10,10 +11,10 @@ const AboutMe = ({data, skills}) => {
 
     <section >
    
-        <h2 className='mb-8 backdrop-blur-2xl' >{title}</h2>
+        <h2 className=' flex mt-1 bg-grey sm:justify-around rounded-lg ' >{title}</h2>
         {body?.map ((el,i) => (
 
-            <p key={`${id}_${i}`} className='mb-6'>
+            <p key={`${id}_${i}`} className='mb-4'>
                 {el}
             </p>
 
@@ -21,8 +22,7 @@ const AboutMe = ({data, skills}) => {
 
 
     <Skills data = {skills}/>
-
-
+  
 
     </section>
   )
