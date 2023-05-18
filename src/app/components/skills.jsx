@@ -33,14 +33,14 @@ const Skills = (data) => {
 			{activeTab === 'SOFT'?skills.SOFT.map(({ icon, text }) => (
 				<li key={text} className='skill'>
 					<span> {icon}</span>
-					<label for="file">{text}</label>
+					<label htmlFor="file">{text}</label>
 					<progress id="file" value="70" max="100"></progress>
 				</li>
 			)):
 			skills.HARD.map(({ icon, text }) => (
 				<li key={text} className='skill'>
 <span> {icon}</span>
-					<label for="file">{text}</label>
+					<label htmlFor="file">{text}</label>
 					<progress id="file" value="75" max="100">  </progress>				</li>
 			))
 		
