@@ -8,6 +8,9 @@ module.exports = {
   theme: {
 
     colors: {
+      JungleGreen:	"#29AB87",
+      Aquamarine:	"#7FFFD4",
+      SeafoamGreen:	"#9FE2BF",
       deapteal:"#02353c",
       silver:"#c0c0c0",
       darkgrey: "	#5A5A5A",

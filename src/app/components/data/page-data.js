@@ -1,10 +1,15 @@
 export const personalData = {
 	name: "Abdul Qayyum",
 	role: "Computer Scientists",
-	education: 
+	education: [
+		"Intermediate from Punjab Groups Of Colleges LHR ",
     
-		"Bachelor of Science in Computer Science, Comsats University Islamabad CUI-LHR",
+		"Bachelor of Science in Computer Science, Comsats University Islamabad CUI-LHR ",
 	
+
+
+	],
+		
 	
 	contactLinks: [
 		"mailto:emailto:qayyumaslam612@gmail.com",
@@ -31,9 +36,9 @@ export const skills = {
 		{ icon: "⌛️", text: "Time management" },
 	],
 	HARD: [
-		{ icon: "ʦ", text: "TypeScript" },
+		{ icon: " ʦ ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
-		{ icon: "js", text: "JavaScript" },
+		{ icon: " js ", text: "JavaScript" },
 		{ icon: "💾", text: "Java" },
 		{ icon: "📈", text: "Data Structures and Algorithms in Java" },
 	]
@@ -44,6 +49,7 @@ export const projectsdetail = {
 	Myprojects: [
 		{
 			role: "Mobile Application Development",
+			
 			description:
 				"Foodie-Moodie App in ReactNative ",
 			current: true,

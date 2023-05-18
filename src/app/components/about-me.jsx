@@ -11,7 +11,7 @@ const AboutMe = ({data, skills}) => {
 
     <section >
    
-        <h2 className=' flex mt-1 bg-grey sm:justify-around rounded-lg ' >{title}</h2>
+        <h2 className=' flex mt-1 bg-grey sm:justify-around rounded-lg mb-2' >{title}</h2>
         {body?.map ((el,i) => (
 
             <p key={`${id}_${i}`} className='mb-4'>

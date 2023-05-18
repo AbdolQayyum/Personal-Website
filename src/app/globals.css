@@ -31,9 +31,8 @@
 		@apply font-display;
 	}
 
-	html{
-
-		@apply font-display;
+	html {
+		font-family: Merriweather;
 	}
 
 }
@@ -46,7 +45,7 @@
 
 section{
 
-	@apply mb-10;
+	@apply mb-10 ;
 
 }
 
@@ -56,10 +55,10 @@ main h2{
 }
 
 .btn{
-	@apply w-1/2 h-1/2  text-BlueGreen font-display uppercase text-xl px-8;
+	@apply w-1/2 h-1/2  text-BlueGreen font-display uppercase text-xl px-4 transition ease-in-out  hover:text-deapteal hover:bg-darkgrey duration-200;
 }
 
 .skill{
-	@apply bg-green-light text-lg py-2 px-4 w-fit rounded-md drop-shadow-md;
+	@apply bg-Cornflower py-0.5 px-1 w-fit rounded-md drop-shadow-md;
 }
 
