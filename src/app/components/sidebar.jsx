@@ -1,7 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
-import { Envelope, Linkedin, Medium } from "../components/icons/";
+import { Envelope } from "./icons/envelope.jsx";
+import { Linkedin } from "./icons/linkedin.jsx";
+import { Medium} from "./icons/medium.jsx";
+
+
 
 const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
