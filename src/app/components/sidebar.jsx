@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-import { Envelope } from "./icons/envelope.jsx";
-import { Linkedin } from "./icons/linkedin.jsx";
-import { Medium} from "./icons/medium.jsx";
+// import { Envelope } from "./icons/envelope.jsx";
+// import { Linkedin } from "./icons/linkedin.jsx";
+// import { Medium} from "./icons/medium.jsx";
 
 
 
