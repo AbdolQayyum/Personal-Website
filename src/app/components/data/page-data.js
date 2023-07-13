@@ -1,6 +1,6 @@
 export const personalData = {
 	name: "Abdul Qayyum",
-	role: "Computer Scientists",
+	role: "Software Engineer",
 	education: [
 		"Intermediate from Punjab Groups Of Colleges LHR ",
     
@@ -38,20 +38,33 @@ export const skills = {
 	HARD: [
 		{ icon: " ʦ ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
+		{ icon: "🚀", text: "React Native" },
 		{ icon: " js ", text: "JavaScript" },
 		{ icon: "💾", text: "Java" },
+		{ icon: "💾", text: "HTML,CSS" },
+		{ icon: "💾", text: "Tailwind CSS" },
 		{ icon: "📈", text: "Data Structures and Algorithms in Java" },
 	]
 };
+
+
 
 export const projectsdetail = {
 	title: "PROJECTS",
 	Myprojects: [
 		{
-			role: "Mobile Application Development",
-			
+			role: "Object Oriented Programming",
+
 			description:
-				"Foodie-Moodie App in ReactNative ",
+				"Making Tictac Toe game with GUI in Java ",
+			current: true,
+		},
+
+		{
+			role: "Data Structures and Algorithms",
+
+			description:
+				"Eight queens game by implementing Hill Climb Algorithm & Random restart Algotithm with Tree Data Structures",
 			current: true,
 		},
 
@@ -61,6 +74,14 @@ export const projectsdetail = {
 				"Portfolio making with React,NextJS and TailwindCSS ",
 			current: true,
 		},
+
+		{
+			role: "Game Development ",
+			description:
+				"Making Fast Food App making experince in React Native(expo), store and get data from firestore firebase",
+			current: true,
+		},
+		
 		
 	],
 };

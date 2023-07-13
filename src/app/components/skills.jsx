@@ -41,7 +41,7 @@ const Skills = (data) => {
 				<li key={text} className='skill'>
 <span> {icon}</span>
 					<label htmlFor="file">{text}</label>
-					<progress className = " bg-deapteal" id="file" value="75" max="100">  </progress>				</li>
+					<progress id="file" value="75" max="100">  </progress>				</li>
 			))
 		
 		}
