@@ -4,7 +4,7 @@ import React from "react";
 //  import { Linkedin } from "./icons/linkedin.jsx";
 //  import { Medium} from "./icons/index.jsx";
 
- import { Envelope, Linkedin, Medium } from "./icons/index.jsx";
+ import { Envelope, Linkedin, Medium } from "./Icons/index.jsx";
 
 
 
