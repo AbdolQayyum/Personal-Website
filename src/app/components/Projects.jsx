@@ -21,19 +21,6 @@ const Projectdata = ({ data }) => {
 						<span className={`h-2 ${current ? "bg-BlueGreen" : "bg-grey"}`} />
 						<div className='bg-green-light p-4 drop-shadow-md'>
 							<h3>{role}</h3>
-							<Image 
-
-// priority
-// width={250}
-// height={250}
-// className='h-full p-5'
-// src = '/images/fastfood.jpeg'
-// alt = 'fastfood.jpeg'
-// aria-label="fastfood.jpeg"
-
-
-/>
-
 
 							<p className='mt-2'>{description}</p>
 						</div>

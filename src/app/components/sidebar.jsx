@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+//  import { Envelope } from "./icons/envelope.jsx";
+//  import { Linkedin } from "./icons/linkedin.jsx";
+//  import { Medium} from "./icons/index.jsx";
 
-// import { Envelope } from "./icons/envelope.jsx";
-// import { Linkedin } from "./icons/linkedin.jsx";
-// import { Medium} from "./icons/medium.jsx";
+ import { Envelope, Linkedin, Medium } from "./icons/index.jsx";
 
 
 
@@ -29,9 +30,9 @@ const Sidebar = ({ data }) => {
 				<h2 className="mb-8">{role}</h2>
 				<p className="mb-2"> {education}</p>
 
-				{/* <div className="text-white text-center sm:mb-4 mt-4 sm:mt-4 ">
-					<h3 className="mb-2" > CONTACT ME</h3> */}
-					{/* <div className="flex flex-row justify-center gap-2">
+				 <div className="text-white text-center sm:mb-4 mt-4 sm:mt-4 ">
+					<h3 className="mb-2" > CONTACT ME</h3> 
+					 <div className="flex flex-row justify-center gap-2">
 						<a className="icon-contactme"
 					
 							href={contactLinks?.[0]}
@@ -54,8 +55,8 @@ const Sidebar = ({ data }) => {
 						>
 							<Medium />
 						</a>
-					</div> */}
-				{/* </div> */}
+					</div> 
+				</div>
 			</div>
 		</div>
 	);

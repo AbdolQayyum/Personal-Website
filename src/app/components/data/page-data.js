@@ -76,7 +76,7 @@ export const projectsdetail = {
 		},
 
 		{
-			role: "Game Development ",
+			role: "App Development ",
 			description:
 				"Making Fast Food App making experince in React Native(expo), store and get data from firestore firebase",
 			current: true,
